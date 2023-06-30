@@ -1,0 +1,1865 @@
+======================
+Proton: 1687555645 experimental-8.0-20230624
+SteamGameId: 1559390
+Command: ['/home/deck/.local/share/Steam/steamapps/common/FateSeekerII/FateSeekerII.exe']
+Options: {'forcelgadd'}
+depot: 0.20230509.49493
+pressure-vessel: 0.20230509.0 scout
+scripts: 0.20230509.0
+sniper: 0.20230509.49493 sniper 0.20230509.49493
+Kernel: Linux 5.13.0-valve36-1-neptune #1 SMP PREEMPT Mon, 19 Dec 2022 23:39:41 +0000 x86_64
+Language: LC_ALL None, LC_MESSAGES None, LC_CTYPE None
+Effective WINEDEBUG: +timestamp,+pid,+tid,+seh,+unwind,+threadname,+debugstr,+loaddll,+mscoree
+======================
+wine: using kernel write watches (experimental).
+fsync: up and running.
+wine: RLIMIT_NICE is <= 20, unable to use setpriority safely
+wine: using kernel write watches (experimental).
+25818.974:0028:002c:trace:seh:install_bpf Installing seccomp filters.
+25818.974:0028:002c:trace:seh:check_bpf_jit_enable enabled 0x31.
+25818.975:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wineboot.exe" at 0000000140000000: builtin
+25818.976:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 000000007B000000: builtin
+25818.976:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 000000007B600000: builtin
+25818.977:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+25818.977:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+25818.977:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+25818.977:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+25818.978:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ws2_32.dll" at 0000000370F70000: builtin
+wine: using kernel write watches (experimental).
+25819.011:0030:0034:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+25819.011:0030:0034:trace:seh:install_bpf Seccomp filters already installed.
+25819.012:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\services.exe" at 0000000140000000: builtin
+25819.014:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 000000007B000000: builtin
+25819.014:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 000000007B600000: builtin
+25819.017:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+25819.018:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+25819.018:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+25819.018:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+25819.018:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+25819.020:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+25819.020:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\setupapi.dll" at 000000036D860000: builtin
+25819.020:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\userenv.dll" at 0000000244FC0000: builtin
+25819.036:0030:0038:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+wine: using kernel write watches (experimental).
+25819.063:003c:0040:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+25819.063:003c:0040:trace:seh:install_bpf Seccomp filters already installed.
+25819.065:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winedevice.exe" at 0000000140000000: builtin
+25819.066:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 000000007B000000: builtin
+25819.066:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 000000007B600000: builtin
+25819.069:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+25819.070:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+25819.070:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+25819.070:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+25819.071:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ntoskrnl.exe" at 000000031CA90000: builtin
+25819.082:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+25819.083:0030:0044:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+25819.085:0030:0048:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+25819.088:003c:0050:warn:threadname:NtSetInformationThread Thread renamed to L"wine_sechost_service"
+25819.091:0030:0054:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+25819.093:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\mountmgr.sys" at 00000003BE830000: builtin
+25819.097:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+25819.097:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\setupapi.dll" at 000000036D860000: builtin
+wine: using kernel write watches (experimental).
+25819.119:0068:006c:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+25819.119:0068:006c:trace:seh:install_bpf Seccomp filters already installed.
+25819.120:0068:006c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winedevice.exe" at 0000000140000000: builtin
+25819.121:0068:006c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 000000007B000000: builtin
+25819.121:0068:006c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 000000007B600000: builtin
+25819.122:0068:006c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+25819.123:0068:006c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+25819.123:0068:006c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+25819.123:0068:006c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+25819.123:0068:006c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ntoskrnl.exe" at 000000031CA90000: builtin
+25819.128:0068:006c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+25819.130:0030:0070:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+25819.133:0068:0078:warn:threadname:NtSetInformationThread Thread renamed to L"wine_sechost_service"
+25819.135:0030:007c:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+25819.138:0068:0074:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\wineusb.sys" at 00000001E58A0000: builtin
+25819.139:0068:0074:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+25819.139:0068:0074:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\setupapi.dll" at 000000036D860000: builtin
+25819.145:0068:0074:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\hidparse.sys" at 00000002AB600000: builtin
+25819.145:0068:0074:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\winebus.sys" at 0000000219DA0000: builtin
+25819.148:0068:0080:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+25819.152:0068:0080:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+25819.152:0068:0080:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+25819.152:0068:0080:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+25819.152:0068:0080:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\hidclass.sys" at 0000000332E40000: builtin
+25819.152:0068:0080:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\winehid.sys" at 00000002FE9D0000: builtin
+25819.250:0068:0084:fixme:wineusb:add_usb_device Interface 1 has 6 alternate settings; using the first one.
+25819.460:0068:0080:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
+25819.463:0068:0080:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+25819.474:0068:0080:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+25819.476:0068:0080:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+25819.477:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.480:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.482:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.484:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.486:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.488:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.491:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.493:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.494:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.497:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.498:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.501:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.504:0068:0080:fixme:wineusb:query_id Unhandled ID query type 0x5.
+25819.507:0068:0080:trace:seh:dispatch_exception code=6ba flags=0 addr=000000007B00CD77 ip=7b00cd77
+25819.507:0068:0080:warn:seh:dispatch_exception unknown exception (code=6ba) raised
+25819.507:0068:0080:trace:seh:dispatch_exception  rax=000000000122f1c0 rbx=000000000122f4a8 rcx=000000000122f1c0 rdx=0000000000000000
+25819.507:0068:0080:trace:seh:dispatch_exception  rsi=00000000000000c8 rdi=00000000008f3e40 rbp=000000000122f290 rsp=000000000122f1a0
+25819.507:0068:0080:trace:seh:dispatch_exception   r8=0000000000000000  r9=0000000000000000 r10=00000000008f53f0 r11=0000000000000014
+25819.507:0068:0080:trace:seh:dispatch_exception  r12=000000000122f4a8 r13=0000000000f65ee0 r14=0000000000f65ee0 r15=00000000000000b4
+25819.507:0068:0080:trace:seh:call_vectored_handlers calling handler at 000000031CAB5FB0 code=6ba flags=0
+25819.507:0068:0080:trace:seh:call_vectored_handlers handler at 000000031CAB5FB0 returned 0
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 7b00cd77 rsp 122f1a0
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 3684498f6 rsp 122f270
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 368436006 rsp 122f2a0
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5002 rsp 122f310
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F380 rsp 000000000122F680 handler 000000031CAAEB70
+25819.507:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.507:0068:0080:trace:seh:call_teb_handler handler at 000000031CAAEB70 returned 1
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5a10 rsp 122f680
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F6B0 rsp 000000000122F800 handler 000000031CAAEDF0
+25819.507:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEDF0 (rec=000000000122F1C0, frame=000000000122F6B0 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.507:0068:0080:trace:unwind:RtlUnwindEx code=6ba flags=2 end_frame=000000000122F6B0 target_ip=000000031CA9D91A rip=0000000170033be5
+25819.507:0068:0080:trace:unwind:RtlUnwindEx  rax=000000007feb0000 rbx=000000000122f380 rcx=000000000122dfb0 rdx=000000031ca9d91a
+25819.507:0068:0080:trace:unwind:RtlUnwindEx  rsi=000000000122da60 rdi=000000000122e6f0 rbp=000000000122d970 rsp=000000000122d8f0
+25819.507:0068:0080:trace:unwind:RtlUnwindEx   r8=000000000122f1c0  r9=000000031cab5f80 r10=000000000122e390 r11=0000000000029030
+25819.507:0068:0080:trace:unwind:RtlUnwindEx  r12=000000000122f1c0 r13=000000000122dfb0 r14=000000000122f6b0 r15=000000017006d3b0
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033be5 rsp 122d8f0
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 33b90-342f8
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4C0 flags 0 prolog 0x1b bytes function 0000000170033B90-00000001700342F8
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x648,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033b77 rsp 122df80
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 33b50-33b81
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4DC flags 0 prolog 0x10 bytes function 0000000170033B50-0000000170033B81
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x80(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x500,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31ca9d91a rsp 122e490
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func d900-d91c
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA600 flags 0 prolog 0x8 bytes function 000000031CA9D900-000000031CA9D91C
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5f7d rsp 122e4c0
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 25f50-25f7e
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA60C flags 0 prolog 0x8 bytes function 000000031CAB5F50-000000031CAB5F7E
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31caaee48 rsp 122e4f0
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 1edf0-1ee49
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA624 flags 0 prolog 0x10 bytes function 000000031CAAEDF0-000000031CAAEE49
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x30(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x30(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xb: subq $0x38,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r13
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r14
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700421f2 rsp 122e550
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 41fd0-42491
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E444 flags 0 prolog 0x1b bytes function 0000000170041FD0-0000000170042491
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x678,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700448e9 rsp 122ec10
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 445b0-44b9f
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E460 flags 0 prolog 0x15 bytes function 00000001700445B0-0000000170044B9F
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x15: leaq 0x40(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x10: subq $0x48,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 17000f124 rsp 122eca0
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func f0bc-f131
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E374 flags 0 prolog 0x7 bytes function 000000017000F0BC-000000017000F131
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x7: subq $0x4f8,%rsp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 7b00cd77 rsp 122f1a0
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 3684498f6 rsp 122f270
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 368436006 rsp 122f2a0
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5002 rsp 122f310
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:unwind:RtlUnwindEx found builtin frame 000000000122F380 handler 000000031CAAEB70
+25819.507:0068:0080:trace:unwind:call_teb_unwind_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122DFB0, dispatch=000000000122D970)
+25819.507:0068:0080:trace:unwind:call_teb_unwind_handler handler at 000000031CAAEB70 returned 1
+25819.507:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5a10 rsp 122f680
+25819.507:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.507:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.507:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.507:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.507:0068:0080:trace:seh:RtlRestoreContext returning to 000000031CA9D91A stack 000000000122F680
+25819.509:0068:0080:trace:seh:dispatch_exception code=6ba flags=0 addr=000000007B00CD77 ip=7b00cd77
+25819.509:0068:0080:warn:seh:dispatch_exception unknown exception (code=6ba) raised
+25819.509:0068:0080:trace:seh:dispatch_exception  rax=000000000122f1c0 rbx=000000000122f4a8 rcx=000000000122f1c0 rdx=0000000000000000
+25819.509:0068:0080:trace:seh:dispatch_exception  rsi=00000000000000c8 rdi=00000000008f3e40 rbp=000000000122f290 rsp=000000000122f1a0
+25819.509:0068:0080:trace:seh:dispatch_exception   r8=0000000000000000  r9=0000000000000000 r10=00000000008f53f0 r11=0000000000000014
+25819.509:0068:0080:trace:seh:dispatch_exception  r12=000000000122f4a8 r13=0000000000f65ee0 r14=0000000000f65ee0 r15=00000000000000b4
+25819.509:0068:0080:trace:seh:call_vectored_handlers calling handler at 000000031CAB5FB0 code=6ba flags=0
+25819.509:0068:0080:trace:seh:call_vectored_handlers handler at 000000031CAB5FB0 returned 0
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 7b00cd77 rsp 122f1a0
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 3684498f6 rsp 122f270
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 368436006 rsp 122f2a0
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5002 rsp 122f310
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F380 rsp 000000000122F680 handler 000000031CAAEB70
+25819.509:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.509:0068:0080:trace:seh:call_teb_handler handler at 000000031CAAEB70 returned 1
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5a10 rsp 122f680
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F6B0 rsp 000000000122F800 handler 000000031CAAEDF0
+25819.509:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEDF0 (rec=000000000122F1C0, frame=000000000122F6B0 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.509:0068:0080:trace:unwind:RtlUnwindEx code=6ba flags=2 end_frame=000000000122F6B0 target_ip=000000031CA9D91A rip=0000000170033be5
+25819.509:0068:0080:trace:unwind:RtlUnwindEx  rax=000000007feb0000 rbx=000000000122f380 rcx=000000000122dfb0 rdx=000000031ca9d91a
+25819.509:0068:0080:trace:unwind:RtlUnwindEx  rsi=000000000122da60 rdi=000000000122e6f0 rbp=000000000122d970 rsp=000000000122d8f0
+25819.509:0068:0080:trace:unwind:RtlUnwindEx   r8=000000000122f1c0  r9=000000031cab5f80 r10=00007f2651c68620 r11=0000000000000202
+25819.509:0068:0080:trace:unwind:RtlUnwindEx  r12=000000000122f1c0 r13=000000000122dfb0 r14=000000000122f6b0 r15=000000017006d3b0
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033be5 rsp 122d8f0
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 33b90-342f8
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4C0 flags 0 prolog 0x1b bytes function 0000000170033B90-00000001700342F8
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x648,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033b77 rsp 122df80
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 33b50-33b81
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4DC flags 0 prolog 0x10 bytes function 0000000170033B50-0000000170033B81
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x80(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x500,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31ca9d91a rsp 122e490
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func d900-d91c
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA600 flags 0 prolog 0x8 bytes function 000000031CA9D900-000000031CA9D91C
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5f7d rsp 122e4c0
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 25f50-25f7e
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA60C flags 0 prolog 0x8 bytes function 000000031CAB5F50-000000031CAB5F7E
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31caaee48 rsp 122e4f0
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 1edf0-1ee49
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA624 flags 0 prolog 0x10 bytes function 000000031CAAEDF0-000000031CAAEE49
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x30(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x30(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xb: subq $0x38,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r13
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r14
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700421f2 rsp 122e550
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 41fd0-42491
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E444 flags 0 prolog 0x1b bytes function 0000000170041FD0-0000000170042491
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x678,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700448e9 rsp 122ec10
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 445b0-44b9f
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E460 flags 0 prolog 0x15 bytes function 00000001700445B0-0000000170044B9F
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x15: leaq 0x40(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x10: subq $0x48,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 17000f124 rsp 122eca0
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func f0bc-f131
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E374 flags 0 prolog 0x7 bytes function 000000017000F0BC-000000017000F131
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x7: subq $0x4f8,%rsp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 7b00cd77 rsp 122f1a0
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 3684498f6 rsp 122f270
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 368436006 rsp 122f2a0
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5002 rsp 122f310
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:unwind:RtlUnwindEx found builtin frame 000000000122F380 handler 000000031CAAEB70
+25819.509:0068:0080:trace:unwind:call_teb_unwind_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122DFB0, dispatch=000000000122D970)
+25819.509:0068:0080:trace:unwind:call_teb_unwind_handler handler at 000000031CAAEB70 returned 1
+25819.509:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5a10 rsp 122f680
+25819.509:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.509:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.509:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.509:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.509:0068:0080:trace:seh:RtlRestoreContext returning to 000000031CA9D91A stack 000000000122F680
+25819.511:0068:0080:trace:seh:dispatch_exception code=6ba flags=0 addr=000000007B00CD77 ip=7b00cd77
+25819.511:0068:0080:warn:seh:dispatch_exception unknown exception (code=6ba) raised
+25819.511:0068:0080:trace:seh:dispatch_exception  rax=000000000122f1c0 rbx=000000000122f4a8 rcx=000000000122f1c0 rdx=0000000000000000
+25819.511:0068:0080:trace:seh:dispatch_exception  rsi=00000000000000c8 rdi=00000000008f3e40 rbp=000000000122f290 rsp=000000000122f1a0
+25819.511:0068:0080:trace:seh:dispatch_exception   r8=0000000000000000  r9=0000000000000000 r10=00000000008f53f0 r11=0000000000000014
+25819.511:0068:0080:trace:seh:dispatch_exception  r12=000000000122f4a8 r13=0000000000f6fb90 r14=0000000000f6fb90 r15=00000000000000b4
+25819.511:0068:0080:trace:seh:call_vectored_handlers calling handler at 000000031CAB5FB0 code=6ba flags=0
+25819.511:0068:0080:trace:seh:call_vectored_handlers handler at 000000031CAB5FB0 returned 0
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 7b00cd77 rsp 122f1a0
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 3684498f6 rsp 122f270
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 368436006 rsp 122f2a0
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5002 rsp 122f310
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F380 rsp 000000000122F680 handler 000000031CAAEB70
+25819.511:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.511:0068:0080:trace:seh:call_teb_handler handler at 000000031CAAEB70 returned 1
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5a10 rsp 122f680
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F6B0 rsp 000000000122F800 handler 000000031CAAEDF0
+25819.511:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEDF0 (rec=000000000122F1C0, frame=000000000122F6B0 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.511:0068:0080:trace:unwind:RtlUnwindEx code=6ba flags=2 end_frame=000000000122F6B0 target_ip=000000031CA9D91A rip=0000000170033be5
+25819.511:0068:0080:trace:unwind:RtlUnwindEx  rax=000000007feb0000 rbx=000000000122f380 rcx=000000000122dfb0 rdx=000000031ca9d91a
+25819.511:0068:0080:trace:unwind:RtlUnwindEx  rsi=000000000122da60 rdi=000000000122e6f0 rbp=000000000122d970 rsp=000000000122d8f0
+25819.511:0068:0080:trace:unwind:RtlUnwindEx   r8=000000000122f1c0  r9=000000031cab5f80 r10=00007f2651c68620 r11=0000000000000202
+25819.511:0068:0080:trace:unwind:RtlUnwindEx  r12=000000000122f1c0 r13=000000000122dfb0 r14=000000000122f6b0 r15=000000017006d3b0
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033be5 rsp 122d8f0
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 33b90-342f8
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4C0 flags 0 prolog 0x1b bytes function 0000000170033B90-00000001700342F8
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x648,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033b77 rsp 122df80
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 33b50-33b81
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4DC flags 0 prolog 0x10 bytes function 0000000170033B50-0000000170033B81
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x80(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x500,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31ca9d91a rsp 122e490
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func d900-d91c
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA600 flags 0 prolog 0x8 bytes function 000000031CA9D900-000000031CA9D91C
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5f7d rsp 122e4c0
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 25f50-25f7e
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA60C flags 0 prolog 0x8 bytes function 000000031CAB5F50-000000031CAB5F7E
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31caaee48 rsp 122e4f0
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 1edf0-1ee49
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA624 flags 0 prolog 0x10 bytes function 000000031CAAEDF0-000000031CAAEE49
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x30(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x30(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xb: subq $0x38,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r13
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r14
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700421f2 rsp 122e550
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 41fd0-42491
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E444 flags 0 prolog 0x1b bytes function 0000000170041FD0-0000000170042491
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x678,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700448e9 rsp 122ec10
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 445b0-44b9f
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E460 flags 0 prolog 0x15 bytes function 00000001700445B0-0000000170044B9F
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x15: leaq 0x40(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x10: subq $0x48,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 17000f124 rsp 122eca0
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func f0bc-f131
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E374 flags 0 prolog 0x7 bytes function 000000017000F0BC-000000017000F131
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x7: subq $0x4f8,%rsp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 7b00cd77 rsp 122f1a0
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 3684498f6 rsp 122f270
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 368436006 rsp 122f2a0
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5002 rsp 122f310
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:unwind:RtlUnwindEx found builtin frame 000000000122F380 handler 000000031CAAEB70
+25819.511:0068:0080:trace:unwind:call_teb_unwind_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122DFB0, dispatch=000000000122D970)
+25819.511:0068:0080:trace:unwind:call_teb_unwind_handler handler at 000000031CAAEB70 returned 1
+25819.511:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5a10 rsp 122f680
+25819.511:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.511:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.511:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.511:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.511:0068:0080:trace:seh:RtlRestoreContext returning to 000000031CA9D91A stack 000000000122F680
+25819.512:0068:0080:trace:seh:dispatch_exception code=6ba flags=0 addr=000000007B00CD77 ip=7b00cd77
+25819.512:0068:0080:warn:seh:dispatch_exception unknown exception (code=6ba) raised
+25819.512:0068:0080:trace:seh:dispatch_exception  rax=000000000122f1c0 rbx=000000000122f4a8 rcx=000000000122f1c0 rdx=0000000000000000
+25819.512:0068:0080:trace:seh:dispatch_exception  rsi=00000000000000c8 rdi=00000000008f3e40 rbp=000000000122f290 rsp=000000000122f1a0
+25819.512:0068:0080:trace:seh:dispatch_exception   r8=0000000000000000  r9=0000000000000000 r10=00000000008f53f0 r11=0000000000000014
+25819.512:0068:0080:trace:seh:dispatch_exception  r12=000000000122f4a8 r13=0000000000f6fb90 r14=0000000000f6fb90 r15=00000000000000b4
+25819.512:0068:0080:trace:seh:call_vectored_handlers calling handler at 000000031CAB5FB0 code=6ba flags=0
+25819.512:0068:0080:trace:seh:call_vectored_handlers handler at 000000031CAB5FB0 returned 0
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 7b00cd77 rsp 122f1a0
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 3684498f6 rsp 122f270
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 368436006 rsp 122f2a0
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5002 rsp 122f310
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F380 rsp 000000000122F680 handler 000000031CAAEB70
+25819.512:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.512:0068:0080:trace:seh:call_teb_handler handler at 000000031CAAEB70 returned 1
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5a10 rsp 122f680
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F6B0 rsp 000000000122F800 handler 000000031CAAEDF0
+25819.512:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEDF0 (rec=000000000122F1C0, frame=000000000122F6B0 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.512:0068:0080:trace:unwind:RtlUnwindEx code=6ba flags=2 end_frame=000000000122F6B0 target_ip=000000031CA9D91A rip=0000000170033be5
+25819.512:0068:0080:trace:unwind:RtlUnwindEx  rax=000000007feb0000 rbx=000000000122f380 rcx=000000000122dfb0 rdx=000000031ca9d91a
+25819.512:0068:0080:trace:unwind:RtlUnwindEx  rsi=000000000122da60 rdi=000000000122e6f0 rbp=000000000122d970 rsp=000000000122d8f0
+25819.512:0068:0080:trace:unwind:RtlUnwindEx   r8=000000000122f1c0  r9=000000031cab5f80 r10=00007f2651c68620 r11=0000000000000202
+25819.512:0068:0080:trace:unwind:RtlUnwindEx  r12=000000000122f1c0 r13=000000000122dfb0 r14=000000000122f6b0 r15=000000017006d3b0
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033be5 rsp 122d8f0
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 33b90-342f8
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4C0 flags 0 prolog 0x1b bytes function 0000000170033B90-00000001700342F8
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x648,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033b77 rsp 122df80
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 33b50-33b81
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4DC flags 0 prolog 0x10 bytes function 0000000170033B50-0000000170033B81
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x80(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x500,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31ca9d91a rsp 122e490
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func d900-d91c
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA600 flags 0 prolog 0x8 bytes function 000000031CA9D900-000000031CA9D91C
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5f7d rsp 122e4c0
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 25f50-25f7e
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA60C flags 0 prolog 0x8 bytes function 000000031CAB5F50-000000031CAB5F7E
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31caaee48 rsp 122e4f0
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 1edf0-1ee49
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA624 flags 0 prolog 0x10 bytes function 000000031CAAEDF0-000000031CAAEE49
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x30(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x30(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xb: subq $0x38,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r13
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r14
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700421f2 rsp 122e550
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 41fd0-42491
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E444 flags 0 prolog 0x1b bytes function 0000000170041FD0-0000000170042491
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x678,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700448e9 rsp 122ec10
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 445b0-44b9f
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E460 flags 0 prolog 0x15 bytes function 00000001700445B0-0000000170044B9F
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x15: leaq 0x40(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x10: subq $0x48,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 17000f124 rsp 122eca0
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func f0bc-f131
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E374 flags 0 prolog 0x7 bytes function 000000017000F0BC-000000017000F131
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x7: subq $0x4f8,%rsp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 7b00cd77 rsp 122f1a0
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 3684498f6 rsp 122f270
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 368436006 rsp 122f2a0
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5002 rsp 122f310
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:unwind:RtlUnwindEx found builtin frame 000000000122F380 handler 000000031CAAEB70
+25819.512:0068:0080:trace:unwind:call_teb_unwind_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122DFB0, dispatch=000000000122D970)
+25819.512:0068:0080:trace:unwind:call_teb_unwind_handler handler at 000000031CAAEB70 returned 1
+25819.512:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5a10 rsp 122f680
+25819.512:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.512:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.512:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.512:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.512:0068:0080:trace:seh:RtlRestoreContext returning to 000000031CA9D91A stack 000000000122F680
+25819.794:0068:0080:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+25819.799:0068:0080:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\winexinput.sys" at 00000001D43F0000: builtin
+25819.801:0068:0080:fixme:xinput:pdo_pnp IRP_MN_QUERY_ID type 5, not implemented!
+25819.804:0068:0080:fixme:xinput:pdo_pnp IRP_MN_QUERY_ID type 5, not implemented!
+25819.805:0068:0080:fixme:xinput:pdo_pnp IRP_MN_QUERY_ID type 5, not implemented!
+25819.808:0068:0080:fixme:xinput:pdo_pnp IRP_MN_QUERY_ID type 5, not implemented!
+25819.811:0068:0080:trace:seh:dispatch_exception code=6ba flags=0 addr=000000007B00CD77 ip=7b00cd77
+25819.811:0068:0080:warn:seh:dispatch_exception unknown exception (code=6ba) raised
+25819.811:0068:0080:trace:seh:dispatch_exception  rax=000000000122f1c0 rbx=000000000122f4a8 rcx=000000000122f1c0 rdx=0000000000000000
+25819.811:0068:0080:trace:seh:dispatch_exception  rsi=0000000000000110 rdi=00000000008f3e40 rbp=000000000122f290 rsp=000000000122f1a0
+25819.811:0068:0080:trace:seh:dispatch_exception   r8=0000000000000000  r9=0000000000000000 r10=00000000008f5b90 r11=0000000000000014
+25819.811:0068:0080:trace:seh:dispatch_exception  r12=000000000122f4a8 r13=0000000000f68e30 r14=0000000000f68e30 r15=00000000000000fc
+25819.811:0068:0080:trace:seh:call_vectored_handlers calling handler at 000000031CAB5FB0 code=6ba flags=0
+25819.811:0068:0080:trace:seh:call_vectored_handlers handler at 000000031CAB5FB0 returned 0
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 7b00cd77 rsp 122f1a0
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 3684498f6 rsp 122f270
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 368436006 rsp 122f2a0
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5002 rsp 122f310
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F380 rsp 000000000122F680 handler 000000031CAAEB70
+25819.811:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.811:0068:0080:trace:seh:call_teb_handler handler at 000000031CAAEB70 returned 1
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5a10 rsp 122f680
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F6B0 rsp 000000000122F800 handler 000000031CAAEDF0
+25819.811:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEDF0 (rec=000000000122F1C0, frame=000000000122F6B0 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.811:0068:0080:trace:unwind:RtlUnwindEx code=6ba flags=2 end_frame=000000000122F6B0 target_ip=000000031CA9D91A rip=0000000170033be5
+25819.811:0068:0080:trace:unwind:RtlUnwindEx  rax=000000007feb0000 rbx=000000000122f380 rcx=000000000122dfb0 rdx=000000031ca9d91a
+25819.811:0068:0080:trace:unwind:RtlUnwindEx  rsi=000000000122da60 rdi=000000000122e6f0 rbp=000000000122d970 rsp=000000000122d8f0
+25819.811:0068:0080:trace:unwind:RtlUnwindEx   r8=000000000122f1c0  r9=000000031cab5f80 r10=00007f2651c68620 r11=0000000000000202
+25819.811:0068:0080:trace:unwind:RtlUnwindEx  r12=000000000122f1c0 r13=000000000122dfb0 r14=000000000122f6b0 r15=000000017006d3b0
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033be5 rsp 122d8f0
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 33b90-342f8
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4C0 flags 0 prolog 0x1b bytes function 0000000170033B90-00000001700342F8
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x648,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033b77 rsp 122df80
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 33b50-33b81
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4DC flags 0 prolog 0x10 bytes function 0000000170033B50-0000000170033B81
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x80(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x500,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31ca9d91a rsp 122e490
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func d900-d91c
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA600 flags 0 prolog 0x8 bytes function 000000031CA9D900-000000031CA9D91C
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5f7d rsp 122e4c0
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 25f50-25f7e
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA60C flags 0 prolog 0x8 bytes function 000000031CAB5F50-000000031CAB5F7E
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31caaee48 rsp 122e4f0
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 1edf0-1ee49
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA624 flags 0 prolog 0x10 bytes function 000000031CAAEDF0-000000031CAAEE49
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x30(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x30(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xb: subq $0x38,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r13
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r14
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700421f2 rsp 122e550
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 41fd0-42491
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E444 flags 0 prolog 0x1b bytes function 0000000170041FD0-0000000170042491
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x678,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700448e9 rsp 122ec10
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 445b0-44b9f
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E460 flags 0 prolog 0x15 bytes function 00000001700445B0-0000000170044B9F
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x15: leaq 0x40(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x10: subq $0x48,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 17000f124 rsp 122eca0
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func f0bc-f131
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E374 flags 0 prolog 0x7 bytes function 000000017000F0BC-000000017000F131
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x7: subq $0x4f8,%rsp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 7b00cd77 rsp 122f1a0
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 3684498f6 rsp 122f270
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 368436006 rsp 122f2a0
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5002 rsp 122f310
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:unwind:RtlUnwindEx found builtin frame 000000000122F380 handler 000000031CAAEB70
+25819.811:0068:0080:trace:unwind:call_teb_unwind_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122DFB0, dispatch=000000000122D970)
+25819.811:0068:0080:trace:unwind:call_teb_unwind_handler handler at 000000031CAAEB70 returned 1
+25819.811:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5a10 rsp 122f680
+25819.811:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.811:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.811:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.811:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.811:0068:0080:trace:seh:RtlRestoreContext returning to 000000031CA9D91A stack 000000000122F680
+25819.815:0068:0080:trace:seh:dispatch_exception code=6ba flags=0 addr=000000007B00CD77 ip=7b00cd77
+25819.815:0068:0080:warn:seh:dispatch_exception unknown exception (code=6ba) raised
+25819.815:0068:0080:trace:seh:dispatch_exception  rax=000000000122f1c0 rbx=000000000122f4a8 rcx=000000000122f1c0 rdx=0000000000000000
+25819.815:0068:0080:trace:seh:dispatch_exception  rsi=0000000000000110 rdi=00000000008f3e40 rbp=000000000122f290 rsp=000000000122f1a0
+25819.815:0068:0080:trace:seh:dispatch_exception   r8=0000000000000000  r9=0000000000000000 r10=00000000008f5b90 r11=0000000000000014
+25819.815:0068:0080:trace:seh:dispatch_exception  r12=000000000122f4a8 r13=0000000000f68e30 r14=0000000000f68e30 r15=00000000000000fc
+25819.815:0068:0080:trace:seh:call_vectored_handlers calling handler at 000000031CAB5FB0 code=6ba flags=0
+25819.815:0068:0080:trace:seh:call_vectored_handlers handler at 000000031CAB5FB0 returned 0
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 7b00cd77 rsp 122f1a0
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 3684498f6 rsp 122f270
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 368436006 rsp 122f2a0
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5002 rsp 122f310
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F380 rsp 000000000122F680 handler 000000031CAAEB70
+25819.815:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.815:0068:0080:trace:seh:call_teb_handler handler at 000000031CAAEB70 returned 1
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 1 rip 31cab5a10 rsp 122f680
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:seh:call_stack_handlers found wine frame 000000000122F6B0 rsp 000000000122F800 handler 000000031CAAEDF0
+25819.815:0068:0080:trace:seh:call_teb_handler calling TEB handler 000000031CAAEDF0 (rec=000000000122F1C0, frame=000000000122F6B0 context=000000000122E6F0, dispatch=000000000122E5C0)
+25819.815:0068:0080:trace:unwind:RtlUnwindEx code=6ba flags=2 end_frame=000000000122F6B0 target_ip=000000031CA9D91A rip=0000000170033be5
+25819.815:0068:0080:trace:unwind:RtlUnwindEx  rax=000000007feb0000 rbx=000000000122f380 rcx=000000000122dfb0 rdx=000000031ca9d91a
+25819.815:0068:0080:trace:unwind:RtlUnwindEx  rsi=000000000122da60 rdi=000000000122e6f0 rbp=000000000122d970 rsp=000000000122d8f0
+25819.815:0068:0080:trace:unwind:RtlUnwindEx   r8=000000000122f1c0  r9=000000031cab5f80 r10=00007f2651c68620 r11=0000000000000202
+25819.815:0068:0080:trace:unwind:RtlUnwindEx  r12=000000000122f1c0 r13=000000000122dfb0 r14=000000000122f6b0 r15=000000017006d3b0
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033be5 rsp 122d8f0
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 33b90-342f8
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4C0 flags 0 prolog 0x1b bytes function 0000000170033B90-00000001700342F8
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x648,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 170033b77 rsp 122df80
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 33b50-33b81
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E4DC flags 0 prolog 0x10 bytes function 0000000170033B50-0000000170033B81
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x80(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x500,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31ca9d91a rsp 122e490
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func d900-d91c
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA600 flags 0 prolog 0x8 bytes function 000000031CA9D900-000000031CA9D91C
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5f7d rsp 122e4c0
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 25f50-25f7e
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA60C flags 0 prolog 0x8 bytes function 000000031CAB5F50-000000031CAB5F7E
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31caaee48 rsp 122e4f0
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 1edf0-1ee49
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA624 flags 0 prolog 0x10 bytes function 000000031CAAEDF0-000000031CAAEE49
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x30(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x10: leaq 0x30(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xb: subq $0x38,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r13
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r14
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700421f2 rsp 122e550
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 41fd0-42491
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E444 flags 0 prolog 0x1b bytes function 0000000170041FD0-0000000170042491
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x13: subq $0x678,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 1700448e9 rsp 122ec10
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 445b0-44b9f
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E460 flags 0 prolog 0x15 bytes function 00000001700445B0-0000000170044B9F
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x15: leaq 0x40(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x10: subq $0x48,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 17000f124 rsp 122eca0
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func f0bc-f131
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000017008E374 flags 0 prolog 0x7 bytes function 000000017000F0BC-000000017000F131
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x7: subq $0x4f8,%rsp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 7b00cd77 rsp 122f1a0
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind inside epilog.
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 3684498f6 rsp 122f270
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 368436006 rsp 122f2a0
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 15f70-16007
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5002 rsp 122f310
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 24f10-25119
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CACA514 flags 0 prolog 0x17 bytes function 000000031CAB4F10-000000031CAB5119
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x17: leaq 0x80(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0xf: subq $0x338,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x8: pushq %rbx
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x5: pushq %r12
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x3: pushq %r13
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:unwind:RtlUnwindEx found builtin frame 000000000122F380 handler 000000031CAAEB70
+25819.815:0068:0080:trace:unwind:call_teb_unwind_handler calling TEB handler 000000031CAAEB70 (rec=000000000122F1C0, frame=000000000122F380 context=000000000122DFB0, dispatch=000000000122D970)
+25819.815:0068:0080:trace:unwind:call_teb_unwind_handler handler at 000000031CAAEB70 returned 1
+25819.815:0068:0080:trace:unwind:RtlVirtualUnwind type 2 rip 31cab5a10 rsp 122f680
+25819.815:0068:0080:trace:unwind:dump_unwind_info **** func 25940-25a21
+25819.815:0068:0080:trace:unwind:dump_unwind_info unwind info at 000000031CAC9EF0 flags 0 prolog 0x11 bytes function 000000031CAB5940-000000031CAB5A21
+25819.815:0068:0080:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x11: leaq 0x80(%rsp),rbp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x9: subq $0x168,%rsp
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x2: pushq %rbx
+25819.815:0068:0080:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25819.815:0068:0080:trace:seh:RtlRestoreContext returning to 000000031CA9D91A stack 000000000122F680
+wine: using kernel write watches (experimental).
+25819.827:009c:00a0:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+25819.827:009c:00a0:trace:seh:install_bpf Seccomp filters already installed.
+25819.828:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\plugplay.exe" at 0000000140000000: builtin
+25819.830:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 000000007B000000: builtin
+25819.830:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 000000007B600000: builtin
+25819.832:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+25819.833:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+25819.833:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+25819.833:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+25819.834:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+25819.836:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+25819.836:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+25819.837:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+25819.837:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+25819.898:009c:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
+25819.900:0030:00ac:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+25819.905:009c:00b4:warn:threadname:NtSetInformationThread Thread renamed to L"wine_sechost_service"
+25819.906:009c:00b8:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+25819.911:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\sharedgpures.sys" at 000000029E400000: builtin
+wine: using kernel write watches (experimental).
+25819.941:00bc:00c0:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+25819.941:00bc:00c0:trace:seh:install_bpf Seccomp filters already installed.
+25819.942:00bc:00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\svchost.exe" at 0000000140000000: builtin
+25819.943:00bc:00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 000000007B000000: builtin
+25819.943:00bc:00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 000000007B600000: builtin
+25819.947:00bc:00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+25819.948:00bc:00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+25819.948:00bc:00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+25819.948:00bc:00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+25819.959:00bc:00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wevtsvc.dll" at 000000029E840000: builtin
+25819.959:00bc:00c0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+25819.961:0030:00c4:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+25819.965:00bc:00cc:warn:threadname:NtSetInformationThread Thread renamed to L"wine_sechost_service"
+25819.968:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\nsiproxy.sys" at 000000033BB90000: builtin
+25819.974:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dnsapi.dll" at 0000000296590000: builtin
+25819.975:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\nsi.dll" at 000000026C190000: builtin
+25819.975:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\iphlpapi.dll" at 00000003982D0000: builtin
+25819.975:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\ndis.sys" at 0000000212240000: builtin
+25819.982:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+25819.982:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+25819.983:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+25819.983:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+25819.984:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
+25819.984:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
+25819.984:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 000000023BC00000: builtin
+25820.036:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
+25820.038:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+25820.038:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 000000031C5D0000: builtin
+25820.038:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 000000020B860000: builtin
+25820.044:0020:0024:trace:seh:install_bpf Installing seccomp filters.
+25820.044:0020:0024:trace:seh:check_bpf_jit_enable enabled 0x31.
+25820.046:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\steam.exe" at 00007F7D36C30000: builtin
+25820.047:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 000000007B000000: builtin
+25820.047:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 000000007B600000: builtin
+25820.051:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+25820.052:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+25820.052:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+25820.052:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+25820.053:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cabinet.dll" at 0000000309660000: builtin
+25820.055:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+25820.056:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+25820.057:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+25820.057:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+25820.057:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
+25820.057:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\comctl32.dll" at 00000002FB3C0000: builtin
+25820.058:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\bcrypt.dll" at 00000002EE630000: builtin
+25820.058:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\crypt32.dll" at 00000002964D0000: builtin
+25820.060:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dbghelp.dll" at 000000023ECB0000: builtin
+25820.060:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imagehlp.dll" at 00000002604A0000: builtin
+25820.060:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mspatcha.dll" at 0000000311BC0000: builtin
+25820.061:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\odbccp32.dll" at 00000003681B0000: builtin
+25820.062:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+25820.062:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 000000031C5D0000: builtin
+25820.062:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 000000020B860000: builtin
+25820.063:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleaut32.dll" at 00000001D0E20000: builtin
+25820.065:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
+25820.065:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
+25820.065:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 000000023BC00000: builtin
+25820.066:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sxs.dll" at 00000002B4DE0000: builtin
+25820.068:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mpr.dll" at 0000000250CD0000: builtin
+25820.069:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ws2_32.dll" at 0000000370F70000: builtin
+25820.069:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wininet.dll" at 0000000345640000: builtin
+25820.069:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\urlmon.dll" at 00000001DE160000: builtin
+25820.070:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wintrust.dll" at 00000002A3D30000: builtin
+25820.070:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msi.dll" at 0000000392C60000: builtin
+wine: using kernel write watches (experimental).
+25820.149:00d8:00dc:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+25820.149:00d8:00dc:trace:seh:install_bpf Seccomp filters already installed.
+25820.151:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\explorer.exe" at 0000000140000000: builtin
+25820.153:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 000000007B000000: builtin
+25820.153:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 000000007B600000: builtin
+25820.155:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+25820.156:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+25820.156:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+25820.156:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+25820.157:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+25820.158:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+25820.158:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+25820.158:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+25820.159:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+25820.228:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
+25820.234:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winex11.drv" at 0000000251D80000: builtin
+25820.329:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 000000026C230000: builtin
+25820.375:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
+25820.376:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
+25820.376:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 000000023BC00000: builtin
+25820.382:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 000000031C5D0000: builtin
+25820.383:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 000000020B860000: builtin
+25820.385:00d8:00e4:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+25820.386:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleaut32.dll" at 00000001D0E20000: builtin
+25820.387:00d8:00dc:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\actxprxy.dll" at 00000002F3610000: builtin
+25820.387:00d8:00dc:trace:seh:dispatch_exception code=6ba flags=0 addr=000000007B00CD77 ip=7b00cd77
+25820.387:00d8:00dc:warn:seh:dispatch_exception unknown exception (code=6ba) raised
+25820.387:00d8:00dc:trace:seh:dispatch_exception  rax=000000000021e7b0 rbx=000000000021ea98 rcx=000000000021e7b0 rdx=0000000000000000
+25820.387:00d8:00dc:trace:seh:dispatch_exception  rsi=000000000000006c rdi=00000000009f3910 rbp=000000000021e880 rsp=000000000021e790
+25820.387:00d8:00dc:trace:seh:dispatch_exception   r8=0000000000000000  r9=0000000000000000 r10=00000000009f3a50 r11=0000000000000014
+25820.387:00d8:00dc:trace:seh:dispatch_exception  r12=000000000021ea98 r13=00000000009f2490 r14=00000000009f23c0 r15=0000000000000001
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 1 rip 7b00cd77 rsp 21e790
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind inside epilog.
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 1 rip 3684498f6 rsp 21e860
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 1 rip 368436006 rsp 21e890
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 15f70-16007
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 1 rip 31c5ee625 rsp 21e900
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 1e530-1e783
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000031C610E68 flags 0 prolog 0x19 bytes function 000000031C5EE530-000000031C5EE783
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x19: leaq 0x80(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x11: subq $0x330,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xa: pushq %rbx
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x9: pushq %rsi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x8: pushq %rdi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x5: pushq %r13
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x3: pushq %r14
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:seh:call_stack_handlers found wine frame 000000000021E970 rsp 000000000021EC70 handler 000000031C5E4F10
+25820.387:00d8:00dc:trace:seh:call_teb_handler calling TEB handler 000000031C5E4F10 (rec=000000000021E7B0, frame=000000000021E970 context=000000000021DCE0, dispatch=000000000021DBB0)
+25820.387:00d8:00dc:trace:seh:call_teb_handler handler at 000000031C5E4F10 returned 1
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 1 rip 31c5f16b4 rsp 21ec70
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 215d0-216da
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000031C610484 flags 0 prolog 0x13 bytes function 000000031C5F15D0-000000031C5F16DA
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x13: leaq 0x80(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xb: subq $0x170,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x3: pushq %r12
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:seh:call_stack_handlers found wine frame 000000000021ECB0 rsp 000000000021EE00 handler 000000031C5E5190
+25820.387:00d8:00dc:trace:seh:call_teb_handler calling TEB handler 000000031C5E5190 (rec=000000000021E7B0, frame=000000000021ECB0 context=000000000021DCE0, dispatch=000000000021DBB0)
+25820.387:00d8:00dc:trace:unwind:RtlUnwindEx code=6ba flags=2 end_frame=000000000021ECB0 target_ip=000000031C5D3EAA rip=0000000170033be5
+25820.387:00d8:00dc:trace:unwind:RtlUnwindEx  rax=000000007fee0000 rbx=000000000021e970 rcx=000000000021d5a0 rdx=000000031c5d3eaa
+25820.387:00d8:00dc:trace:unwind:RtlUnwindEx  rsi=000000000021d050 rdi=000000000021dce0 rbp=000000000021cf60 rsp=000000000021cee0
+25820.387:00d8:00dc:trace:unwind:RtlUnwindEx   r8=000000000021e7b0  r9=000000031c5f59b0 r10=00007f5bd4105620 r11=0000000000000202
+25820.387:00d8:00dc:trace:unwind:RtlUnwindEx  r12=000000000021e7b0 r13=000000000021d5a0 r14=000000000021ecb0 r15=000000017006d3b0
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 170033be5 rsp 21cee0
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 33b90-342f8
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000017008E4C0 flags 0 prolog 0x1b bytes function 0000000170033B90-00000001700342F8
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x13: subq $0x648,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 170033b77 rsp 21d570
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 33b50-33b81
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000017008E4DC flags 0 prolog 0x10 bytes function 0000000170033B50-0000000170033B81
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x10: leaq 0x80(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x8: subq $0x500,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 31c5d3eaa rsp 21da80
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 3e90-3eac
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000031C610F88 flags 0 prolog 0x8 bytes function 000000031C5D3E90-000000031C5D3EAC
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 31c5f59ad rsp 21dab0
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 25980-259ae
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000031C610F94 flags 0 prolog 0x8 bytes function 000000031C5F5980-000000031C5F59AE
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 31c5e51e8 rsp 21dae0
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 15190-151e9
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000031C610FAC flags 0 prolog 0x10 bytes function 000000031C5E5190-000000031C5E51E9
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x30(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x10: leaq 0x30(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xb: subq $0x38,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x5: pushq %r13
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x3: pushq %r14
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 1700421f2 rsp 21db40
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 41fd0-42491
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000017008E444 flags 0 prolog 0x1b bytes function 0000000170041FD0-0000000170042491
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x13: subq $0x678,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 1700448e9 rsp 21e200
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 445b0-44b9f
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000017008E460 flags 0 prolog 0x15 bytes function 00000001700445B0-0000000170044B9F
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x15: leaq 0x40(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x10: subq $0x48,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 17000f124 rsp 21e290
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func f0bc-f131
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000017008E374 flags 0 prolog 0x7 bytes function 000000017000F0BC-000000017000F131
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x7: subq $0x4f8,%rsp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 7b00cd77 rsp 21e790
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind inside epilog.
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 3684498f6 rsp 21e860
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 298e0-2992b
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 0000000368489D34 flags 0 prolog 0x8 bytes function 00000003684498E0-000000036844992B
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 368436006 rsp 21e890
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 15f70-16007
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 0000000368487440 flags 0 prolog 0xd bytes function 0000000368435F70-0000000368436007
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 31c5ee625 rsp 21e900
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 1e530-1e783
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000031C610E68 flags 0 prolog 0x19 bytes function 000000031C5EE530-000000031C5EE783
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x19: leaq 0x80(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x11: subq $0x330,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xa: pushq %rbx
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x9: pushq %rsi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x8: pushq %rdi
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x5: pushq %r13
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x3: pushq %r14
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:unwind:RtlUnwindEx found builtin frame 000000000021E970 handler 000000031C5E4F10
+25820.387:00d8:00dc:trace:unwind:call_teb_unwind_handler calling TEB handler 000000031C5E4F10 (rec=000000000021E7B0, frame=000000000021E970 context=000000000021D5A0, dispatch=000000000021CF60)
+25820.387:00d8:00dc:trace:unwind:call_teb_unwind_handler handler at 000000031C5E4F10 returned 1
+25820.387:00d8:00dc:trace:unwind:RtlVirtualUnwind type 2 rip 31c5f16b4 rsp 21ec70
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info **** func 215d0-216da
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info unwind info at 000000031C610484 flags 0 prolog 0x13 bytes function 000000031C5F15D0-000000031C5F16DA
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x13: leaq 0x80(%rsp),rbp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0xb: subq $0x170,%rsp
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x3: pushq %r12
+25820.387:00d8:00dc:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25820.387:00d8:00dc:trace:seh:RtlRestoreContext returning to 000000031C5D3EAA stack 000000000021EC70
+25820.390:0030:00e8:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+wine: using kernel write watches (experimental).
+25820.463:00ec:00f0:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+25820.463:00ec:00f0:trace:seh:install_bpf Seccomp filters already installed.
+25820.465:00ec:00f0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcss.exe" at 0000000140000000: builtin
+25820.465:00ec:00f0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 000000007B000000: builtin
+25820.466:00ec:00f0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 000000007B600000: builtin
+25820.469:00ec:00f0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+25820.470:00ec:00f0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+25820.470:00ec:00f0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+25820.470:00ec:00f0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+25820.471:00ec:00f0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+25820.482:0030:00f4:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+25820.485:0030:00f8:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+25820.488:00ec:0100:warn:threadname:NtSetInformationThread Thread renamed to L"wine_sechost_service"
+25820.490:00ec:0104:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+25820.491:00ec:0108:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+25820.494:00ec:010c:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+25820.496:00ec:0110:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+wine: using kernel write watches (experimental).
+25820.513:0114:0118:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+25820.513:0114:0118:trace:seh:install_bpf Seccomp filters already installed.
+25820.514:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\tabtip.exe" at 0000000140000000: builtin
+25820.515:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 000000007B000000: builtin
+25820.515:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 000000007B600000: builtin
+25820.519:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+25820.520:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+25820.520:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+25820.520:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+25820.522:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+25820.522:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+25820.523:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00000002169D0000: builtin
+25820.523:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+25820.524:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+25820.524:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 000000031C5D0000: builtin
+25820.524:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 000000020B860000: builtin
+25820.525:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleaut32.dll" at 00000001D0E20000: builtin
+25820.527:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
+25820.528:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00000002A2380000: builtin
+25820.528:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 000000023BC00000: builtin
+25820.590:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 0000000393730000: builtin
+25820.593:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winex11.drv" at 0000000251D80000: builtin
+25820.593:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleacc.dll" at 00000003B8910000: builtin
+25820.593:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uiautomationcore.dll" at 000000029DB00000: builtin
+25820.596:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winex11.drv" at 0000000251D80000: builtin
+25820.662:0114:0118:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 000000026C230000: builtin
+25820.664:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 000000026C230000: builtin
+25820.678:0114:0118:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+25820.678:0114:0118:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+25820.678:0114:0118:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+25820.680:0114:0120:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+25820.682:0114:0118:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000034FF78, 000000000021FA90: stub!
+Setting breakpad minidump AppID = 1559390
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198261174026 [API loaded no]
+25820.738:0020:0024:fixme:steam:setup_steam_registry Game language "schinese", defaulting LC_CTYPE / LC_MESSAGES to zh_CN.UTF-8.
+25820.752:0114:0124:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+25820.752:0114:0124:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+25820.755:0114:0124:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000004C43B8, 0000000001B2FAB0: stub!
+25820.760:0114:0124:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+25820.761:0114:0124:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+25820.763:0114:0124:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000004C1858, 0000000001B2FAB0: stub!
+wine: using kernel write watches (experimental).
+fixme:nls:init_locale Failed to set LC_CTYPE to "zh_CN.UTF-8", is the locale supported?
+fixme:nls:init_locale Failed to set LC_MESSAGES to "zh_CN.UTF-8", is the locale supported?
+25820.824:0138:013c:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+25820.824:0138:013c:trace:seh:install_bpf Seccomp filters already installed.
+25820.827:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\deck\\.local\\share\\Steam\\steamapps\\common\\FateSeekerII\\FateSeekerII.exe" at 0000000140000000: native
+25820.828:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 000000007B000000: builtin
+25820.828:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 000000007B600000: builtin
+25820.845:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 0000000228280000: builtin
+25820.846:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00000002C7470000: builtin
+25820.846:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00000001EAF60000: builtin
+25820.846:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00000001D8C90000: builtin
+25820.847:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00000002C73A0000: builtin
+25820.848:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00000002BB0A0000: builtin
+25820.849:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 000000025DC30000: builtin
+25820.849:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\USER32.dll" at 00000002169D0000: builtin
+25820.852:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 0000000368420000: builtin
+25820.852:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 000000031C5D0000: builtin
+25820.852:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 000000020B860000: builtin
+25820.854:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00000002BDE30000: builtin
+25820.854:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\SHLWAPI.dll" at 00000002A2380000: builtin
+25820.856:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\SETUPAPI.dll" at 000000036D860000: builtin
+25820.858:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\SHELL32.dll" at 000000023BC00000: builtin
+25820.860:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\OPENGL32.dll" at 000000007A800000: builtin
+25820.863:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msacm32.dll" at 0000000351A60000: builtin
+25820.863:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WINMM.dll" at 00000002945E0000: builtin
+25820.865:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WS2_32.dll" at 0000000370F70000: builtin
+25820.866:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\OLEAUT32.dll" at 00000001D0E20000: builtin
+25820.868:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\IMM32.dll" at 0000000393730000: builtin
+25820.869:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\jsproxy.dll" at 00000002EB680000: builtin
+25820.869:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WINHTTP.dll" at 00000001EFE00000: builtin
+25820.870:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\bcrypt.dll" at 00000002EE630000: builtin
+25820.872:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\HID.DLL" at 00000002E0D50000: builtin
+25820.874:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\CRYPT32.dll" at 00000002964D0000: builtin
+25820.876:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\propsys.dll" at 0000000263650000: builtin
+25820.876:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WindowsCodecs.dll" at 0000000252450000: builtin
+25820.877:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dwmapi.dll" at 00000002EF230000: builtin
+25820.880:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dnsapi.dll" at 00000000004A0000: builtin
+25820.881:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\nsi.dll" at 000000026C190000: builtin
+25820.881:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\iphlpapi.dll" at 00000003982D0000: builtin
+25820.881:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WSOCK32.dll" at 00000002C85A0000: builtin
+25820.881:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\deck\\.local\\share\\Steam\\steamapps\\common\\FateSeekerII\\UnityPlayer.dll" at 0000000180000000: native
+25820.883:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WTSAPI32.dll" at 0000000394BA0000: builtin
+25821.880:0138:013c:warn:seh:dispatch_exception backtrace: --- Exception 0x80000004.
+25821.880:0138:013c:trace:seh:dispatch_exception code=80000004 flags=0 addr=000000014118C6EB ip=14118c6eb
+25821.880:0138:013c:warn:seh:dispatch_exception EXCEPTION_SINGLE_STEP exception (code=80000004) raised
+25821.880:0138:013c:trace:seh:dispatch_exception  rax=000000007c77b80c rbx=0000000000000000 rcx=00000000deadc0de rdx=00000000000041d0
+25821.880:0138:013c:trace:seh:dispatch_exception  rsi=0000000000000000 rdi=000000014054e390 rbp=000000000011f8f0 rsp=000000000011f8a0
+25821.880:0138:013c:trace:seh:dispatch_exception   r8=000000000003e000  r9=000000000000df28 r10=00000000c530440c r11=000000000000003c
+25821.880:0138:013c:trace:seh:dispatch_exception  r12=0000000017ee7b37 r13=0000000000000004 r14=0000000000000000 r15=0000000140000000
+25821.880:0138:013c:warn:seh:virtual_unwind backtrace: 000000014118C6EB: L"FateSeekerII.exe" + 000000000118C6EB.
+25821.880:0138:013c:trace:unwind:RtlVirtualUnwind type 1 rip 14118c6eb rsp 11f8a0
+25821.880:0138:013c:trace:unwind:dump_unwind_info **** func 118c5d1-118c7b4
+25821.880:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001411468D0 flags 1 prolog 0x19 bytes function 000000014118C5D1-000000014118C7B4
+25821.880:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x50(%rsp)
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x19: leaq 0x50(%rsp),rbp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x14: subq $0x648,%rsp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xd: pushq %r15
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %r14
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r13
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %rdi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x4: pushq %rsi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %rbx
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x2: pushq %rbp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     handler 00000001405439D0 data at 00000001411468F0
+25821.880:0138:013c:trace:seh:call_handler calling handler 00000001405439D0 (rec=000000000011F6A0, frame=000000000011F8A0 context=000000000011EC00, dispatch=000000000011EAD0)
+25821.880:0138:013c:trace:unwind:RtlUnwindEx code=80000004 flags=2 end_frame=000000000011F8A0 target_ip=000000014118C6F6 rip=0000000170033be5
+25821.880:0138:013c:trace:unwind:RtlUnwindEx  rax=000000007fee0000 rbx=ffffffffffffffff rcx=000000000011ec00 rdx=000000014118c6f6
+25821.880:0138:013c:trace:unwind:RtlUnwindEx  rsi=000000000011e4a0 rdi=0000000000000001 rbp=000000000011e3b0 rsp=000000000011e330
+25821.880:0138:013c:trace:unwind:RtlUnwindEx   r8=000000000011f6a0  r9=ffffffff80000004 r10=00007f83956b5620 r11=0000000000000202
+25821.880:0138:013c:trace:unwind:RtlUnwindEx  r12=000000000011f6a0 r13=000000000011ec00 r14=000000000011ead0 r15=0000000140000000
+25821.880:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 170033be5 rsp 11e330
+25821.880:0138:013c:trace:unwind:dump_unwind_info **** func 33b90-342f8
+25821.880:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000017008E4C0 flags 0 prolog 0x1b bytes function 0000000170033B90-00000001700342F8
+25821.880:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x648,%rsp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25821.880:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 140543ad5 rsp 11e9c0
+25821.880:0138:013c:trace:unwind:dump_unwind_info **** func 5439d0-543b71
+25821.880:0138:013c:trace:unwind:dump_unwind_info unwind info at 0000000140552404 flags 0 prolog 0x20 bytes function 00000001405439D0-0000000140543B71
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x20: movq %rsi,0x88(%rsp)
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x20: movq %rbp,0x80(%rsp)
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x20: movq %rbx,0x70(%rsp)
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x20: subq $0x40,%rsp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x1c: pushq %r15
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x1a: pushq %r14
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x18: pushq %r13
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x16: pushq %r12
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x14: pushq %rdi
+25821.880:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 17000ef74 rsp 11ea30
+25821.880:0138:013c:trace:unwind:dump_unwind_info **** func ef6c-ef7a
+25821.880:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000017008E2F4 flags 1 prolog 0x0 bytes function 000000017000EF6C-000000017000EF7A
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x4: subq $0x28,%rsp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     handler 0000000170052C10 data at 000000017008E300
+25821.880:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 1700420bc rsp 11ea60
+25821.880:0138:013c:trace:unwind:dump_unwind_info **** func 41fd0-42491
+25821.880:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000017008E444 flags 0 prolog 0x1b bytes function 0000000170041FD0-0000000170042491
+25821.880:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x678,%rsp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25821.880:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 1700448e9 rsp 11f120
+25821.880:0138:013c:trace:unwind:dump_unwind_info **** func 445b0-44b9f
+25821.880:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000017008E460 flags 0 prolog 0x15 bytes function 00000001700445B0-0000000170044B9F
+25821.880:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x15: leaq 0x40(%rsp),rbp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x10: subq $0x48,%rsp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25821.880:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 17000efce rsp 11f1b0
+25821.880:0138:013c:trace:unwind:dump_unwind_info **** func ef7c-efcf
+25821.880:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000017008E300 flags 0 prolog 0x4d bytes function 000000017000EF7C-000000017000EFCF
+25821.880:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x4d: leaq 0x0(%rsp),rbp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x4d: pushq %rsi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x4d: pushq %rdi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x4d: pushq %rbp
+25821.880:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 14118c6eb rsp 11f8a0
+25821.880:0138:013c:trace:unwind:dump_unwind_info **** func 118c5d1-118c7b4
+25821.880:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001411468D0 flags 1 prolog 0x19 bytes function 000000014118C5D1-000000014118C7B4
+25821.880:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x50(%rsp)
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x19: leaq 0x50(%rsp),rbp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x14: subq $0x648,%rsp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xd: pushq %r15
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %r14
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r13
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %rdi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x4: pushq %rsi
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %rbx
+25821.880:0138:013c:trace:unwind:dump_unwind_info     0x2: pushq %rbp
+25821.880:0138:013c:trace:unwind:dump_unwind_info     handler 00000001405439D0 data at 00000001411468F0
+25821.880:0138:013c:trace:seh:RtlRestoreContext returning to 000000014118C6F6 stack 000000000011F8A0
+25822.302:003c:0050:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+25822.315:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\PSAPI.DLL" at 0000000267930000: builtin
+25822.316:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\deck\\.local\\share\\Steam\\steamapps\\common\\FateSeekerII\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" at 0000000001650000: native
+25822.647:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\deck\\.local\\share\\Steam\\steamapps\\common\\FateSeekerII\\FateSeekerII_Data\\Plugins\\steam_api64.dll" at 000000013B400000: native
+25822.659:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\WINTRUST.DLL" at 00000002A3D30000: builtin
+25822.663:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dbghelp.dll" at 000000023ECB0000: builtin
+25822.665:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imagehlp.dll" at 00000002604A0000: builtin
+25822.668:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rsaenh.dll" at 00000001CCDD0000: builtin
+25822.683:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\lsteamclient.dll" at 00007F8393C60000: builtin
+25822.686:0138:013c:trace:loaddll:build_module Loaded L"C:\\Program Files (x86)\\Steam\\steamclient64.dll" at 0000000138000000: native
+25822.686:0138:013c:warn:debugstr:OutputDebugStringA "[S_API] SteamAPI_Init(): Loaded 'C:\\Program Files (x86)\\Steam\\steamclient64.dll' OK.\n"
+25822.686:0138:013c:trace:seh:dispatch_exception code=40010006 flags=0 addr=000000007B00CD77 ip=7b00cd77
+25822.686:0138:013c:trace:seh:dispatch_exception  info[0]=0000000000000056
+25822.686:0138:013c:trace:seh:dispatch_exception  info[1]=000000000011f0e0
+25822.686:0138:013c:warn:seh:dispatch_exception "[S_API] SteamAPI_Init(): Loaded 'C:\\Program Files (x86)\\Steam\\steamclient64.dll' OK.\n"
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 1 rip 7b00cd77 rsp 11ed00
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind inside epilog.
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 1 rip 7b6223f4 rsp 11edd0
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func 22170-22660
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000007B63C384 flags 0 prolog 0x21 bytes function 000000007B622170-000000007B622660
+25822.686:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x21: leaq 0x80(%rsp),rbp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x19: subq $0x2a8,%rsp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x12: pushq %rbx
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x11: pushq %r12
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xf: pushq %r13
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xd: pushq %r14
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %r15
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %rbp
+25822.686:0138:013c:trace:seh:call_stack_handlers found wine frame 000000000011EF40 rsp 000000000011F0B0 handler 000000007B62A050
+25822.686:0138:013c:trace:seh:call_teb_handler calling TEB handler 000000007B62A050 (rec=000000000011ED20, frame=000000000011EF40 context=000000000011E250, dispatch=000000000011E120)
+25822.686:0138:013c:trace:unwind:RtlUnwindEx code=40010006 flags=2 end_frame=000000000011EF40 target_ip=000000007B61412A rip=0000000170033be5
+25822.686:0138:013c:trace:unwind:RtlUnwindEx  info[0]=0000000000000056
+25822.686:0138:013c:trace:unwind:RtlUnwindEx  info[1]=000000000011f0e0
+25822.686:0138:013c:trace:unwind:RtlUnwindEx  rax=000000007fee0000 rbx=000000000011ef40 rcx=000000000011db10 rdx=000000007b61412a
+25822.686:0138:013c:trace:unwind:RtlUnwindEx  rsi=000000000011d5c0 rdi=000000000011e250 rbp=000000000011d4d0 rsp=000000000011d450
+25822.686:0138:013c:trace:unwind:RtlUnwindEx   r8=000000000011ed20  r9=000000007b62d110 r10=00007f83956b5620 r11=0000000000000202
+25822.686:0138:013c:trace:unwind:RtlUnwindEx  r12=000000000011ed20 r13=000000000011db10 r14=000000000011ef40 r15=000000017006d3b0
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 170033be5 rsp 11d450
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func 33b90-342f8
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000017008E4C0 flags 0 prolog 0x1b bytes function 0000000170033B90-00000001700342F8
+25822.686:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x648,%rsp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 170033b77 rsp 11dae0
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func 33b50-33b81
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000017008E4DC flags 0 prolog 0x10 bytes function 0000000170033B50-0000000170033B81
+25822.686:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x10: leaq 0x80(%rsp),rbp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x8: subq $0x500,%rsp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 7b61412a rsp 11dff0
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func 14110-1412c
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000007B63DE74 flags 0 prolog 0x8 bytes function 000000007B614110-000000007B61412C
+25822.686:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 7b62d10d rsp 11e020
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func 2d0e0-2d10e
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000007B63DE80 flags 0 prolog 0x8 bytes function 000000007B62D0E0-000000007B62D10E
+25822.686:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 7b62a0a8 rsp 11e050
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func 2a050-2a0a9
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000007B63DE98 flags 0 prolog 0x10 bytes function 000000007B62A050-000000007B62A0A9
+25822.686:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x30(%rsp)
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x10: leaq 0x30(%rsp),rbp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xb: subq $0x38,%rsp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r12
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r13
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r14
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 1700421f2 rsp 11e0b0
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func 41fd0-42491
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000017008E444 flags 0 prolog 0x1b bytes function 0000000170041FD0-0000000170042491
+25822.686:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x678,%rsp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 1700448e9 rsp 11e770
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func 445b0-44b9f
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000017008E460 flags 0 prolog 0x15 bytes function 00000001700445B0-0000000170044B9F
+25822.686:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x15: leaq 0x40(%rsp),rbp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x10: subq $0x48,%rsp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 17000f124 rsp 11e800
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func f0bc-f131
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000017008E374 flags 0 prolog 0x7 bytes function 000000017000F0BC-000000017000F131
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x7: subq $0x4f8,%rsp
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 7b00cd77 rsp 11ed00
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func cd08-cd7f
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000007B0AD738 flags 0 prolog 0xf bytes function 000000007B00CD08-000000007B00CD7F
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind inside epilog.
+25822.686:0138:013c:trace:unwind:RtlVirtualUnwind type 2 rip 7b6223f4 rsp 11edd0
+25822.686:0138:013c:trace:unwind:dump_unwind_info **** func 22170-22660
+25822.686:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000007B63C384 flags 0 prolog 0x21 bytes function 000000007B622170-000000007B622660
+25822.686:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x21: leaq 0x80(%rsp),rbp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x19: subq $0x2a8,%rsp
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x12: pushq %rbx
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x11: pushq %r12
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xf: pushq %r13
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xd: pushq %r14
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %r15
+25822.686:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %rbp
+25822.686:0138:013c:trace:seh:RtlRestoreContext returning to 000000007B61412A stack 000000000011EDD0
+25822.725:0138:013c:trace:loaddll:build_module Loaded L"C:\\Program Files (x86)\\Steam\\gameoverlayrenderer64.dll" at 0000000002670000: native
+Setting breakpad minidump AppID = 1559390
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198261174026 [API loaded no]
+25824.112:0030:0148:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+25824.113:0030:014c:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+25824.115:0030:0150:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+pid 30508 != 30507, skipping destruction (fork without exec?)
